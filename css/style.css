@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+}
+
+.padre{
+    position: relative;
+    left: 25%;
+    top: 50px;
+    width: 600px;
+    height: 600px;
+    border: 15px solid black;
+}
+
+.hijo1{
+    position: absolute;
+    top: 40px;
+    left: 182px;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    background-color: blue;
+    border-radius: 100%;
+}
+
+.nieto1{
+    position: absolute;
+    left: 18px;
+    top: 30px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    color: white;
+}
+
+.hijo2{
+    position: absolute;
+    top: 40px;
+    left: 318px;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    background-color: blue;
+    border-radius: 100%;
+}
+
+.nieto2{
+    position: absolute;
+    left: 12px;
+    top: 30px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    color: white;
+}
+
+.hijo3{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 180px;
+    height: 180px;
+    margin: 5px;
+    background-color: blue;
+    border-radius: 100%;
+}
+
+.nieto31{
+    position: absolute;
+    left: 35px;
+    top: 45px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: yellow(255, 0, 0, 0.288) solid 3px;
+    color: white;
+}
+
+.nieto32{
+    position: absolute;
+    left: 95px;
+    top: 45px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: yellow(255, 0, 0, 0.288) solid 3px;
+    color: white;
+}
+
+.nieto33{
+    position: absolute;
+    left: 80px;
+    top: 103px;
+    border-radius: 100%;
+    width: 20px;
+    height: 16px;
+    background-color: yellow;
+    border: yellow(255, 0, 0, 0.288) solid 3px;
+    color: white;
+}
+
+.nieto34{
+    position: absolute;
+    left: 58px;
+    top: 135px;
+    border-radius: 100%;
+    width: 70px;
+    height: 20px;
+    background-color: yellow;
+    border: yellow(255, 0, 0, 0.288) solid 3px;
+    color: white;
+}
+
+.hijo4{
+    position: absolute;
+    top: 280px;
+    left: 168px;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    background-color: blue;
+    border-radius: 100%;
+}
+
+.nieto4{
+    position: absolute;
+    left: 63px;
+    top: 30px;
+    border-radius: 100%;
+    width: 120px;
+    height: 180px;
+    background-color: yellow;
+    border: yellow(255, 0, 0, 0.288) solid 3px;
+}
+
+.hijo5{
+    position: absolute;
+    top: 330px;
+    left: 90px;
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 100%;
+}
+
+.hijo6{
+    position: absolute;
+    top: 330px;
+    left: 406px;
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 100%;
+}
+
+.hijo7{
+    position: absolute;
+    top: 480px;
+    left: 385px;
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 100%;
+}
+
+.hijo8{
+    position: absolute;
+    top: 480px;
+    left: 110px;
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 100%;
+}
